@@ -4,15 +4,15 @@
 
 	</head>
   <body>
-    <label id="name">Name</label>
+    <label id="name">name</label>
 	<br>
 	<input type="text" for="name">
 	<br><br>
-	<label id="year">Year</label>
+	<label id="year">year</label>
 	<br>
 	<input type="number" for="year">
 	<br><br>
-	<button>Submit</button>
+	<button id="button">Submit</button>
 	<h3 id="url">https://localhost:8080/</h3>
 	</body>
 	<script>
@@ -38,9 +38,6 @@
 			}else if(val1!="" && val2!=""){
 						let final_Ans = h.innerText = `https://localhost:8080/?name=${val1}&year=${val2} `;
 			}
-	
-
-
 		
 			// console.log("hiiii")
 		}
